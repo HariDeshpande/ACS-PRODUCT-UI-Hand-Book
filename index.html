@@ -1027,11 +1027,83 @@ this.showTab = tabnumber;
             </div>
         </div>
 
+        <div class="accordion-box px-1 py-2 mb-2">
+            <h3>
+                <label for="check-box-10">Custom Timeline:</label> <input type="checkbox" class="check-box" id="check-box-10">
+            </h3>
+            <div class="code-box">
+                <div>
+                    <code class="blue">
+<pre>
+    &lt;div class="details-top-card p-3 m-3"&gt;
+        &lt;div class="new-common-timeline"&gt;
+        &lt;!-- Idealy a loop should be applied on this and it should create all the satpes --&gt;
+  
+        &lt;!-- Step One Start --&gt;
+        &lt;div class="status-red status-orange status-green"&gt;
+            &lt;span class="timeline--title" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipPoint1"&gt;
+            POINT 1
+            &lt;div #tooltipPoint1="tooltip" igxTooltip&gt;Point 1&lt;/div&gt;
+            &lt;/span&gt;
+            &lt;em class="timeline--dot"&gt;&lt;/em&gt;
+            &lt;strong class="timeline--ststus" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltippoint1Status"&gt;
+            Point 1 Status 
+            &lt;div #tooltippoint1Status="tooltip" igxTooltip&gt;Point 1 Status&lt;/div&gt;
+            &lt;/strong&gt;
+            &lt;small class="timeline--date-time" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipStatusDate"&gt;24 Sep 2024 09:48&lt;/small&gt;
+            &lt;div #tooltipStatusDate="tooltip" igxTooltip&gt;24 Sep 2024 09:48&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Step One End --&gt;
+    
+        &lt;!-- Step Two Start --&gt;
+        &lt;div class="status-red status-orange status-green"&gt;
+            &lt;span class="timeline--title" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipPoint2"&gt;
+            POINT 2 
+            &lt;div #tooltipPoint2="tooltip" igxTooltip&gt;Point 2&lt;/div&gt;
+            &lt;/span&gt;
+            &lt;em class="timeline--dot"&gt;&lt;/em&gt;
+            &lt;strong class="timeline--ststus" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltippoint2Status"&gt;
+            Point 2 Status 
+            &lt;div #tooltippoint2Status="tooltip" igxTooltip&gt;Point 2 Status&lt;/div&gt;
+            &lt;/strong&gt;
+            &lt;small class="timeline--date-time" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipStatusDate"&gt;25 Sep 2024 10:00&lt;/small&gt;
+            &lt;div #tooltipStatusDate="tooltip" igxTooltip&gt;25 Sep 2024 10:00&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Step Two End --&gt;
+    
+        &lt;!-- Step Three Start --&gt;
+        &lt;div class="status-red status-orange status-green"&gt;
+            &lt;span class="timeline--title" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipPoint3"&gt;
+            POINT 3 
+            &lt;div #tooltipPoint3="tooltip" igxTooltip&gt;Point 3&lt;/div&gt;
+            &lt;/span&gt;
+            &lt;em class="timeline--dot"&gt;&lt;/em&gt;
+            &lt;strong class="timeline--ststus" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltippoint3Status"&gt;
+            Point 3 Status
+            &lt;div #tooltippoint3Status="tooltip" igxTooltip&gt;Point 3 Status&lt;/div&gt;
+            &lt;/strong&gt;
+            &lt;small class="timeline--date-time" showDelay="400" hideDelay="0" [igxTooltipTarget]="tooltipStatusDate"&gt;27 Sep 2024 12:00&lt;/small&gt;
+            &lt;div #tooltipStatusDate="tooltip" igxTooltip&gt;27 Sep 2024 12:00&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Step Three End --&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</pre>
+                    </code>
+            </div>
+                <div class="preview">
+                    <p><strong>Below is the preview:</strong></p>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+
 
 
         <div class="accordion-box px-1 py-2 mb-2">
             <h3>
-                <label for="check-box-10">Section Heading:</label> <input type="checkbox" class="check-box" id="check-box-10">
+                <label for="check-box-12">Section Heading:</label> <input type="checkbox" class="check-box" id="check-box-12">
             </h3>
             <div class="code-box">
                 <div>
